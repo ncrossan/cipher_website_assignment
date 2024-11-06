@@ -1,0 +1,88 @@
+/*
+Author: Nathaniel David Crossan
+File description: This is the css file for the index.html file 
+*/
+#window {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#sidebar {
+    background-color: #C1C8E4;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 370px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+h1  {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: #5680E9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#userText {
+    width: 60%;
+    height: 20px;
+}
+
+.grid-container {
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    color: #4578fb;
+    border: solid #4578fb 1px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#encryptedText {
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 70px;
+    overflow: hidden;
+}
+
+#caesar {
+    background-color: #5AB9EA;
+    height: 50%;
+}
+
+#square {
+    background-color: #8860D0;
+    height: 50%;
+}
+
+#updateSquare {
+    background-color: transparent;
+    text-align: center;
+    font-size: 15px;
+    width: auto;
+    height: 30px;
+}
+
+#rangeValue {
+    text-align: left;
+    color: #4578fb;
+    font-weight: bold;
+}

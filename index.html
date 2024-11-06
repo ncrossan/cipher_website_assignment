@@ -1,0 +1,39 @@
+<!--
+Author: Nathaniel David Crossan
+File Description: This is the html file for the Two Ciphers One Phrase website that takes
+                  user input and encrypts the text via two ciphers.
+                  This file is the basic structure of the content.
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta charset="utf-8">
+    <title>2 Ciphers 1 Phrase</title>
+    <script src="./script/script.js" defer></script>
+</head>
+
+<body>
+    <div id="window">
+        <div id="sidebar">
+            <h1>TWO CIPHERS<br>ONE PHRASE</h1>
+            <input type="text" id="userText" value="TWO CIPHERS"><br>
+            <span id="rangeValue">0</span>
+            <input type="range" id="shift" min="0" max="26" value="0"><br>
+            <input id="updateSquare" type="button" value="Update Square"><br>
+
+            <div class="grid-container">
+                <div class="grid-item" id="gridItem1">A</div><div class="grid-item" id="gridItem2">B</div><div class="grid-item" id="gridItem3">C</div><div class="grid-item" id="gridItem4">D</div><div class="grid-item" id="gridItem5">E</div>
+                <div class="grid-item" id="gridItem6">F</div><div class="grid-item" id="gridItem7">G</div><div class="grid-item" id="gridItem8">H</div><div class="grid-item" id="gridItem9">I</div><div class="grid-item" id="gridItem10">J</div>
+                <div class="grid-item" id="gridItem11">K</div><div class="grid-item" id="gridItem12">L</div><div class="grid-item" id="gridItem13">M</div><div class="grid-item" id="gridItem14">N</div><div class="grid-item" id="gridItem15">O</div>
+                <div class="grid-item" id="gridItem16">P</div><div class="grid-item" id="gridItem17">Q</div><div class="grid-item" id="gridItem18">R</div><div class="grid-item" id="gridItem19">S</div><div class="grid-item" id="gridItem20">T</div>
+                <div class="grid-item" id="gridItem21">U</div><div class="grid-item" id="gridItem22">V</div><div class="grid-item" id="gridItem23">W</div><div class="grid-item" id="gridItem24">X</div><div class="grid-item" id="gridItem25">Y</div>
+            </div>
+        </div>
+        <div id="encryptedText">
+            <div id="caesar">TWO CIPHERS</div>
+            <div id="square">TWO CIPHERS</div>
+        </div>
+    </div>
+</body>
+</html>
